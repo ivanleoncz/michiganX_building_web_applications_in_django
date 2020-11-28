@@ -13,7 +13,7 @@ def index(request):
 
 
 def owner(request):
-    return HttpReponse("Hello, world. 842efe84 is the polls index.")
+    return HttpResponse("Hello, world. 842efe84 is the polls index.")
 
 
 def detail(request, question_id):
